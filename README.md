@@ -1,27 +1,20 @@
-# Movie Recommender System
+# Cinema Assistant - Movie Recommendation Engine
 
-A lightweight, object-oriented movie recommendation engine built from scratch using Python and Pandas. This project marks the first milestone of my portfolio as I prepare for advanced studies in Artificial Intelligence and Data Science.
+This project is a Python-based application designed to help users find movies from a dataset based on specific genres and their maximum available time.
 
-## 📌 About the Project
+## 📊 Features
+- Dynamic Data Processing: Automatically detects relevant columns (Genre, Duration, Title).
+- Robust Filtering: Search movies by genre (case-insensitive) and maximum duration.
+- Data Tolerance: Handles various data formats, spacing, and missing values.
+- User-Friendly: Interactive command-line interface.
 
-This application is designed to act as a personalized digital cinema assistant. Instead of relying on rigid, pre-coded structures, it dynamically parses and filters a structured CSV dataset based on real-time user constraints—specifically target genres and maximum viewing duration.
+## 🚀 Getting Started
+1. Ensure your file is named movies_dataset.csv and placed in the same folder as main.py.
+2. Run the application:
+python main.py
 
-The primary focus of this initial version was to establish a rock-solid foundation in software engineering practices, specifically focusing on clean code architecture and data encapsulation.
+## 📊 Dataset Acknowledgment
+The dataset used in this project was sourced from Kaggle (https://www.kaggle.com).
 
-## 💻 Tech Stack & Core Concepts
-
-- **Language:** Python 3.x
-- **Data Manipulation:** Pandas
-- **Architecture:** Object-Oriented Programming (OOP)
-  - Designed with clean, modular, and production-ready Python classes.
-  - Implemented strict encapsulation to ensure safe and predictable dataset handling.
-- **Storage:** CSV-backed relational structure (`movies_dataset.csv`).
-
-## 📂 Repository Blueprint
-
-```text
-├── .vscode/
-│   └── launch.json          # Development and debugging configuration
-├── main.py                  # Main execution script (OOP logic)
-├── movies_dataset.csv       # Structured movie catalog
-└── README.md                # Project documentation
+---
+Created by Harkati Fadi
